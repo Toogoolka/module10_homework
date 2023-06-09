@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn_text {
+    margin-right: 10px;
+}
+#change_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 5px;
+
+    width: 200px;
+
+    padding: 12px;
+    outline: 0;
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    background-color: #2e71ff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+
+    margin-top: 200px;
+}
+
+#change_btn:hover {
+    background-color: #4682ff;
+}
+#change_btn:active {
+    font-size: 16px;
+    width: 190px;
+}
+
+#icon_2 {
+    display: none;
+}

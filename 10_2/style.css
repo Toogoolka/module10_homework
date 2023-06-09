@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn {
+    margin-top: 25%;
+    border: none;
+    border-radius: 7px;
+
+    background-color: cadetblue;
+    color: white;
+
+    font-size: 28px;
+
+    padding: 16px 24px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: #458a8c;
+}
+#btn:active {
+    font-size: 27px;
+}
